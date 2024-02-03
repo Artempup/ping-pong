@@ -165,7 +165,7 @@ public:
             return false;
         }
     };
-    int main() {
+    int main() {setlocale(LC_ALL, "RUS");
         Game game;
 
         while (true) {
